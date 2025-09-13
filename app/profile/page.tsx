@@ -61,12 +61,31 @@ export default function ProfilePage() {
     <main style={styles.container}>
       <div style={styles.card}>
         <img src="https://scontent.fbkk25-1.fna.fbcdn.net/v/t39.30808-6/503767020_1943797499490449_8305544543835157937_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=lDZ0Gt-i6HQQ7kNvwG9mbIv&_nc_oc=Adlu36jDJP5vhGFumtRK1iXlKoY14lXkgpFArNRV6N1Chb80ZduE2tXj4gXwCp5T5-MnrgSY1OSk5_qIupeMze2A&_nc_zt=23&_nc_ht=scontent.fbkk25-1.fna&_nc_gid=ucbHdQt8Ur2hbXoIQsky0g&oh=00_AfYM9T2lwP_r0ww9jMu8LiEyzEaovdwfuGmCn2QeIlNDSg&oe=68CAA8C0" alt="Profile Picture" style={styles.avatar} />
-        <h1 style={styles.name}> 66113440 Intira Wichitanuruk</h1>
+        <h1 style={styles.name}> 66113440 <br /> Intira Wichitanuruk</h1>
         <p style={styles.role}>Computer Engineering & AI Student</p>
 
         <div style={styles.info}>
           <p>📧 intira.wi@mail.wu.ac.th</p>
           <p>📱 092-869-3605</p>
+        </div>
+
+        <div style={styles.links}>
+          <a href="https://github.com/" target="_blank" style={styles.link}>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/" target="_blank" style={styles.link}>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src="https://scontent.fbkk25-1.fna.fbcdn.net/v/t39.30808-1/509419488_1757765735137639_4264659514282887431_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=1d2534&_nc_ohc=Le59k7LpFqQQ7kNvwFDl2uT&_nc_oc=AdklD9U1r1GN-Zok80ZGWzBg2rlFIauy5YMsHNYRrIZxrBrhI18rNP1LNCzk9d_4bv_O1xGRnoJBgfH6rpbULy21&_nc_zt=24&_nc_ht=scontent.fbkk25-1.fna&_nc_gid=BTt5kcN3rEMmwG14MNlgFw&oh=00_AfZ4-93o0Y_CsVprklH8oKI6TdSm8Bdwk0XkrV9esdJn3Q&oe=68CAA675" alt="Profile Picture" style={styles.avatar} />
+        <h1 style={styles.name}> 66108853 <br /> ภานรินทร์ เจ็งศิริ</h1>
+        <p style={styles.role}>Computer Engineering & AI Student</p>
+
+        <div style={styles.info}>
+          <p>📧 parnarin.je@mail.wu.ac.th</p>
+          <p>📱 085-215-3598</p>
         </div>
 
         <div style={styles.links}>
